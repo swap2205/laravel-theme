@@ -3,6 +3,7 @@
 use Closure;
 use Illuminate\View\Factory;
 use Illuminate\Config\Repository;
+use Illuminate\Support\Arr;
 
 abstract class Widget {
 
@@ -144,7 +145,7 @@ abstract class Widget {
      */
     public function getAttribute($key, $default = null)
     {
-        return array_get($this->attributes, $key, $default);
+        return Arr::get($this->attributes, $key, $default);
     }
 
     /**
