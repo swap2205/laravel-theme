@@ -1,18 +1,14 @@
 {
-    "name": "facuz/laravel-themes",
+    "name": "swap2205/laravel-theme",
     "description": "Theme will help you organize your themes inside Laravel projects easily and maintain its related assets, layouts and partials for the theme in single directory. (Based on teepluss/theme)",
     "keywords": ["laravel", "theme", "layout", "asset", "widget"],
-    "homepage": "https://github.com/facuz/laravel-theme",
+    "homepage": "https://github.com/swap2205/laravel-theme",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Teepluss",
-            "email": "admin@laravel.in.th"
-        },
-        {
-            "name": "FaCuZ",
-            "email": "info@indis.com.ar"
+            "name": "Swapnil M",
+            "email": "swapnil@gmail.com"
         }
     ],
     "require": {
